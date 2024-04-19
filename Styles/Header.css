@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.Main {
+    height: 100px;
+    background-color: hsl(12, 32%, 22%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Nav_Logo {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+
+}
+
+.Right_Nav {
+    display: flex;
+    list-style-type: none;
+    font-size: 10px;
+    font-style: 16px;
+    color: white;
+   
+
+}
+
+.Right_Nav li {
+    margin-right: 60px;
+    font-family: cursive;
+    cursor: pointer;
+    font-family: "Pacifico", cursive;
+    
+}
+
+.Left_Nav {
+    display: flex;
+    padding-right: 500px;
+
+}
+
+.Logo_Title {
+    color: white;
+    padding-left: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: "Pacifico", cursive;
+}
